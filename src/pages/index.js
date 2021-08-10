@@ -1,5 +1,9 @@
-import React from "react"
+import React from 'react'
+import Layout from '../components/Layout'
 
-export default function Home() {
-  return <div>Hello world!</div>
+const Index = () => {
+  return (
+    <Layout><h1>Hola mundo</h1></Layout>
+  )
 }
+export default Index;
